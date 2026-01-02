@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(50% 90% 100%);
+}
+
+.div_geral {
+    border: 2px solid rgb(10% 10% 80%);
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Segoe UI';
+}
