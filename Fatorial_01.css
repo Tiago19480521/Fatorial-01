@@ -1,3 +1,15 @@
+:root {
+    --main-radius: 1.5rem;
+    --input-radius: 1rem;
+    --font-default: 'Maiandra GD';
+    /* --font-default: 'Lucida Sans'; */
+    /* --font-default: 'Mate'; */
+    /* --font-default: 'Calibri'; */
+    /* --font-default: 'Eras ITC'; */
+    /* --font-default: 'Montserrat', serif; */
+    --font-style: italic;
+}
+
 body {
     background-color: rgb(50% 90% 100%);
 }
@@ -6,17 +18,42 @@ body {
     border: 2px solid rgb(10% 10% 80%);
     border-radius: 10px;
     margin-bottom: 5px;
+    height: 80px;
 
     display: flex;
     justify-content: center;
 
-    font-family: 'Segoe UI';
+    font-family: var(--font-default);
+}
+
+#div_titulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(10% 10% 90%);        
 }
 
 .par_geral {
     margin-right: 10px;
+    font-size: 20px;
 }
 
-#inp_num1 {
+.inp_geral {
+    border: 2px solid rgb(10% 80% 50%);    
+    border-radius: 20px;
+    background-color: rgb(100% 80% 10%);
+    color: rgb(0% 30% 10%);
+    text-align: center;
+    height: 40px;
     margin-right: 10px;
+    margin-top: 17px;
+    font-size: 20px;    
+}
+
+.btn_geral {
+    border: 2px solid rgb(10% 20% 50%);    
+    border-radius: 15px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(0% 80% 50%);
+    color: rgb(100% 100% 100%);
 }
