@@ -10,20 +10,28 @@
 
     <body>
         <div class="div_geral" id="div_titulo">
-            <p class="par_geral">Cálculo do Fatorial de um Inteiro</p>
-            <input type="text" id="inp_num">
+            <p id="par_titulo">Cálculo do Fatorial de um Número Inteiro</p>            
         </div>
+
         <div class="div_geral" id="div_numero">
-            <p>Número inteiro</p>
+            <p class="par_geral">Número inteiro</p>
+            <input type="text" class="inp_geral" id="inp_num">
+            <button id="btn_calc" class="btn_geral" onclick="dispResults()">
+                Calcular
+            </button>
         </div>
+
         <div class="div_geral" id="div_fatorial">
             <p class="par_geral">Fatorial de</p>
-            <input type="text" id="inp_num1">
+            <input type="text" class="inp_geral" id="inp_num1">
             <p class="par_geral"> é igual a </p>
-            <input type="text" id="inp_fat">
+            <input type="text" class="inp_geral" id="inp_fat">
         </div>
-        <div class="div_geral" id="div_limpa_fecha">
-            <p>Limpar Campos</p>
+
+        <div class="div_geral" id="div_limpa">
+            <button id="btn_limpa" class="btn_geral" onclick="limpaCampos()">
+                Limpar Campos
+            </button>
         </div>
     </body>
 
